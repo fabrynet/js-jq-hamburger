@@ -1,10 +1,20 @@
+// $('.header-right > a').click(
+//   function () {
+//     $('.hamburger-menu').fadeIn(800);
+//   }
+// );
+// $('.close').click(
+//   function () {
+//     $('.hamburger-menu').fadeOut(800);
+//   }
+// );
 $('.header-right > a').click(
   function () {
-    $('.hamburger-menu').fadeIn(800);
+    $('.hamburger-menu').addClass('active');
   }
 );
 $('.close').click(
   function () {
-    $('.hamburger-menu').fadeOut(800);
+    $('.hamburger-menu').removeClass('active');
   }
 );
